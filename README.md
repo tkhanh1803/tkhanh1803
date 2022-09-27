@@ -168,7 +168,7 @@ public class BankAccountInfo:  BankAccount
         
     }
     private string name;
-    private string Name{
+    public string Name{
         get {return this.name;}
         set{this.name = value;}
     }
